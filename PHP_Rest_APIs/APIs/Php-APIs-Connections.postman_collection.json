@@ -1,0 +1,65 @@
+{
+	"info": {
+		"_postman_id": "b67919c0-09ed-4ea5-9c34-14381b2ca3c2",
+		"name": "Php-APIs-Connections",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26588313"
+	},
+	"item": [
+		{
+			"name": "http://localhost/RESTfull%20APIs/PHP_Rest_APIs/api-fetch-all.php",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/RESTfull%20APIs/PHP_Rest_APIs/api-fetch-all.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"RESTfull%20APIs",
+						"PHP_Rest_APIs",
+						"api-fetch-all.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/RESTfull%20APIs/PHP_Rest_APIs/api-fetch-single.php",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"s_id\" : \"7\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/RESTfull%20APIs/PHP_Rest_APIs/api-fetch-single.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"RESTfull%20APIs",
+						"PHP_Rest_APIs",
+						"api-fetch-single.php"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
